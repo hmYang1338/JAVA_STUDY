@@ -16,10 +16,9 @@ public class StudentManagerTest {
 	public static void main(String[] args) {
 
 		StudentManager sm = new StudentManager();
-		String classRoom;
+		String classRoom, name;
 		int number;
 		int num, kor, eng, mat;
-		String name;
 		Scanner stdin = new Scanner(System.in);
 
 		while (true) {

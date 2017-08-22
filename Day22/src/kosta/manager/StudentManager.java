@@ -118,7 +118,6 @@ public class StudentManager {
 				// 새로 추가
 				map.put(s.getClassRoom(), s.gettotal());
 			}
-			
 		}
 		return map;
 		

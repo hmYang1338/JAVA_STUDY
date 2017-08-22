@@ -26,9 +26,9 @@ public class SortListTest2 {
 		System.out.println(list);
 		
 		
+		System.out.println();
 		
-		/*
-		*//** Comparator를 이용한 정렬 *//*
+		//** Comparator를 이용한 정렬 *//*
 		Collections.sort(list, new Comparator<Car>() {
 
 			@Override
@@ -44,6 +44,6 @@ public class SortListTest2 {
 			}
 		});
 		System.out.println(list);
-		*/
+		
 	} // end of main
 } // end of class
